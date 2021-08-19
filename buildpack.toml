@@ -33,7 +33,7 @@ id = "org.cloudfoundry.stacks.cflinuxfs3"
 
 [[metadata.configurations]]
 name        = "BP_DATADOGTRACE_ENABLED"
-description = ""whether to contribute datadog trace support"
+description = "whether to contribute datadog trace support"
 build      = true
 
 [[metadata.configurations]]
