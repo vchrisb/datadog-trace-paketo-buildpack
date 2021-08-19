@@ -17,8 +17,8 @@ jobs:
     - name: Install Dependencies
       run: sh .github/install_dependencies.sh
       env:
-        PACK_VERSION: 0.15.0
-        JAM_VERSION: 0.10.2
+        JAM_VERSION: 0.14.3
+        PACK_VERSION: 0.20.0
 
     - name: Check Format
       run: |
