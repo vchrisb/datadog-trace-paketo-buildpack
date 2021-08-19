@@ -21,6 +21,10 @@ version  = "{{.version}}"
 homepage = "https://github.com/DataDog/datadog-trace-paketo-buildpack"
 keywords    = ["java", "apm"]
 
+[[buildpack.licenses]]
+type = "MIT"
+uri  = "https://github.com/DataDog/datadog-trace-paketo-buildpack/blob/master/LICENSE.txt"
+
 [[stacks]]
 id = "io.buildpacks.stacks.bionic"
 
@@ -38,10 +42,6 @@ name    = "Datadog Trace Java Agent"
 version = "0.0"
 uri     = "https://dtdg.co/latest-java-tracer"
 stacks  = [ "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3" ]
-
-[[metadata.dependencies.licenses]]
-type = "MIT"
-uri  = "https://github.com/DataDog/datadog-trace-paketo-buildpack/blob/master/LICENSE.txt"
 
 # configuration data for packaging into a buildpack using `jam` command
 [metadata]
